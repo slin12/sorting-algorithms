@@ -44,7 +44,7 @@ This repository contains my implementations of common sorting algorithms. See be
 
 ## QUICKSORT
 
-  Quicksort is one of the most popular and efficient sorting algorithms (in face, Ruby uses quicksort as it's default sort!). Quicksort chooses a pivot - commonly the last or first element, and partitions the rest of the array. Elements smaller than the pivot are on one side (left), elements larger or equal on the other (right). The pivot is then put in the middle, right where it belongs. It then recursively calls quicksort each side, until all elements are in their correct place. One potential drawback of quicksort is in choosing the pivot - the pivot should be as close to the median of the array as possible. The time complexity will grow significantly if quicksort is sorted or nearly sorted; it has potential to grow to O(n²).
+  Quicksort is one of the most popular and efficient sorting algorithms (in fact, Ruby uses quicksort as it's default sort!). Quicksort chooses a pivot - commonly the last or first element, and partitions the rest of the array. Elements smaller than the pivot are on one side (left), elements larger or equal on the other (right). The pivot is then put in the middle, right where it belongs. It then recursively calls quicksort each side, until all elements are in their correct place. One potential drawback of quicksort is in choosing the pivot - the pivot should be as close to the median of the array as possible. The time complexity will grow significantly if quicksort is sorted or nearly sorted; it has potential to grow to O(n²).
 
   This algorithm has a O(n log n) time complexity and is generally considered an in-place sorting method.
 
