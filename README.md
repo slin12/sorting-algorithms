@@ -52,3 +52,14 @@ This repository contains my implementations of common sorting algorithms. See be
   [1](https://medium.com/basecs/pivoting-to-understand-quicksort-part-1-75178dfb9313)
   [2](https://medium.com/basecs/pivoting-to-understand-quicksort-part-2-30161aefe1d3)
   [3](http://www.geeksforgeeks.org/quick-sort/)
+
+## COUNTING SORT
+
+  Counting sort is a non-comparative sorting algorithm that only works on integers. It also only works when you know the range for the input. Counting sort work by creating a new array that maps out the instances of each number, then iterates through the array and adds each pair together. It then shifts every element to the right by one, and completes the algorithm by looking at each element in the original array and putting it in it's right place, according to the counting array. See the links below for a more thorough explanation; I think this algorithm can be confusing without an example.
+
+  When implemented correctly, counting sort has close to an O(n) time complexity (technicially O(n+k)) and is an out-of-place sorting method.
+
+  Some links for further reading:
+  [1](https://medium.com/basecs/counting-linearly-with-counting-sort-cd8516ae09b3)
+  [2](http://www.geeksforgeeks.org/counting-sort/)
+  [3](https://www.interviewcake.com/concept/java/counting-sort)
